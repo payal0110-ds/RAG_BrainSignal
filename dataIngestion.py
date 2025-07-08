@@ -13,7 +13,7 @@
 # print(result[1])
 
 '''
-The WARNING ocurred due to structural issue in PDF file, henec we are using a
+The WARNING are ocurred due to structural issue in PDF file, henec we are using a
 differnt loader 'PDFMinerLoader' to fix this issue. 
 '''
 
@@ -28,5 +28,5 @@ def PDF_Loader(path):
     text=text_splitter.split_documents(docs)
     return text
 
-result=PDF_Loader('Data/Research Study_Brain Signals.pdf')
-print(result[1])
+# result=PDF_Loader('Data/Research Study_Brain Signals.pdf')
+# print(result[1])
