@@ -20,7 +20,7 @@ def getDB():
 
 prompt = ChatPromptTemplate.from_template(
     """
-    Answer the the following question based on the below context.
+    Consider yourself as a professor and answer the the following question based on the below context.
     <context>
     {context}
     </context>
